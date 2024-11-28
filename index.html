@@ -1,0 +1,86 @@
+<!--Font & color picker HTML-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>COLOR & FONT PICKER</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="icon" href="Images\flowers.jpg">
+		<link rel="stylesheet" href="cop.css"/>
+	</head>
+	<body>
+		<div>
+			<h2 style="text-align:center; font-size:42px;"><span class="mult">Color and Font Picker</span></h2>
+		</div>
+		
+		
+		<div class=content>
+			<div class="Box">
+				<h1 contenteditable="true" id="text"></h1>
+			</div>
+			
+			<div class="controls">
+				<div class="app">
+					<div>
+						<div class="wrap">
+							<div class="half">
+								<div class="colorPicker"></div>
+							</div>
+							<div class="half-readout">
+							<center>
+									<div id="values"></div>
+									<input id="hexInput" style="outline: none;border: 0; text-align: center;"></input>
+							<center>
+							</div>
+						</div>
+						<script src='https://cdn.jsdelivr.net/npm/@jaames/iro/dist/iro.min.js'></script>
+					</div>
+					
+					<div class="srap">
+						<center>
+							<button id="aptr"></button>
+							<h3>Apply color on</h3>
+							<br>
+							<button id="srt" onclick="apply()" >TEXT</button>
+							<br><br>
+							<button id="srt" onclick="apply1()">Background</button>
+						</center>
+					</div>	
+				</div>
+				
+		
+				<div>
+					<div class="font">
+						<h3>Font Styles </h3>
+						<div id="fontst">
+							<button id="Font1" onclick="fontstyle1()">Hello</button>
+							<button id="Font2" onclick="fontstyle2()">Hello</button>
+							<button id="Font3" onclick="fontstyle3()">Hello</button>
+							<button id="Font4" onclick="fontstyle4()">Hello</button>
+							<button id="Font5" onclick="fontstyle5()">Hello</button>
+							<button id="Font6" onclick="fontstyle6()">Hello</button>
+							<button id="Font7" onclick="fontstyle7()">Hello</button>
+							<button id="Font8" onclick="fontstyle8()">Hello</button>
+							<button id="Font9" onclick="fontstyle9()">Hello</button>
+							<button id="Font10" onclick="fontstyle10()">Hello</button>
+							<button id="Font11" onclick="fontstyle11()">Hello</button>
+							<button id="Font12" onclick="fontstyle12()">Hello</button>
+							<button id="Font13" onclick="fontstyle13()">Hello</button>
+							<button id="Font14" onclick="fontstyle14()">Hello</button>
+							<button id="Font15" onclick="fontstyle15()">Hello</button>
+							<button id="Font16" onclick="fontstyle16()">Hello</button>
+							<button id="Font17" onclick="fontstyle17()">Hello</button>
+							<button id="Font18" onclick="fontstyle18()">Hello</button>
+						</div>
+					</div>
+				</div>
+				
+			</div>	
+
+		</div>
+	</body>
+	<script src="cop.js"></script>
+</html>
+
+
+

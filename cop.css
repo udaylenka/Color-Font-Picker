@@ -1,0 +1,191 @@
+/*Font & color picker css*/
+.mult{
+       background-image: linear-gradient(to left,violet,indigo,green,blue,yellow,orange,red);
+       -webkit-background-clip: text;
+       -moz-background-clip: text;
+       background-clip: text;
+       color: transparent;
+}
+body{
+	display:grid;
+	background-color:rgb(250, 249, 246);
+}
+h1{
+    height: 500px;
+	width:675px;
+	text-align:center;
+	align-items:center;
+	outline:none;
+	max-width:600px;
+	overflow:auto;
+	border-radius:20px;
+	background:white;
+	vertical-align:middle;
+	margin:auto;
+}
+h2{
+	margin-top:25px;
+	margin-bottom:35px;
+}
+h3{
+	font-size:24px;
+	text-align:center;
+	margin-top:20px;
+	padding-top:3px;
+	padding-bottom:5px;
+	margin-bottom:12px;
+}
+.content{
+	display:flex;
+	justify-content:space-around;
+	width:100%;
+	align-items:center;
+	
+}
+.controls{
+	display:grid;
+	width:50%;
+}
+.app{
+	display:flex;
+	justify-content:space-around;
+}
+.srap{
+	background:rgb(250, 249, 246);
+	margin:auto;
+	padding:20px;
+	border-radius:20px;
+	box-shadow:0 0 4px blue;
+	height:55%;
+}
+
+.wrap{
+	margin:8px;
+	border-radius:20px;
+}
+.colorPicker{
+	padding:5px;
+}
+#hexInput{
+	width:70px;
+	background:gray;
+	border-radius:10px;
+	cursor:text;
+}
+#hexInput:hover{
+	width:90px;
+	border-radius:20px;
+}
+/*font-family*/
+
+.font{
+    padding: auto;
+    background-color: rgb(250, 249, 246);
+    height: 92%;
+    width: 93%;
+	border-radius:15px;
+	box-shadow:0 0 6px blue;
+}
+#fontst{
+	padding-left:4px;
+	padding-right:4px;
+}
+
+/*applying colors part*/
+#aptr{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+}
+#srt{
+	width:130px;
+	height:35px;
+	border-radius:30px;
+	cursor:pointer;
+	box-shadow:0 0 3px white;
+	background:#F9F6EE;
+	background-image:url("Images/colors.jpg");
+	background-repeat:no-repeat;
+	background-position:center top;
+	font-family:CloisterBlack BT;
+	display:border;
+	border-color:white;
+}
+#srt:hover{
+	Font-size:16px;
+	box-shadow:0 0 6px blue;
+}
+
+/*fonts for text*/
+.font button{
+	width: 90px;
+    height: 33px;
+	Font-size:17px;
+	margin-left:11px;
+	margin-right:11px;
+	border-radius:20px;
+	border-width:2px;
+	cursor:pointer;
+	box-shadow:0 0 4px antiquewhite;
+	margin-top:5px;
+	margin-bottom:5px;
+	display:border;
+	border-color:white
+}
+.font button:hover{
+	box-shadow:0 0 10px white;
+}
+#Font1{
+    font-family: "Colonna MT";
+}    
+#Font2{
+    font-family: "Times New Roman";
+}
+#Font3{
+    font-family: "SimSun-ExtB";
+}
+#Font4{
+    font-family: "chiller";
+}
+#Font5{
+    font-family: "French Script MT";
+}    
+#Font6{
+    font-family: "Edwardian Script ITC";
+}
+#Font7{
+    font-family: "Calibri";
+}
+#Font8{
+    font-family: "Gabriola";
+}
+#Font9{
+    font-family: "Ink Free";
+}    
+#Font10{
+    font-family: "Old English Text MT";
+}
+#Font11{
+    font-family: "Lucida Handwriting";
+}
+#Font12{
+    font-family: "Agency FB";
+}
+#Font13{
+    font-family: "Stencil";
+}    
+#Font14{
+    font-family: "Papyrus";
+}
+#Font15{
+    font-family: "Magneto";
+}
+#Font16{
+    font-family: "Gadugi";
+}
+#Font17{
+    font-family: "Forte";
+}    
+#Font18{
+    font-family: "Curlz MT";
+}
