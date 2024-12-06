@@ -104,7 +104,7 @@ h3{
 	cursor:pointer;
 	box-shadow:0 0 3px white;
 	background:#F9F6EE;
-	background-image:url("colors.jpg");
+	background-image:url('colors.jpg');
 	background-repeat:no-repeat;
 	background-position:center top;
 	font-family:CloisterBlack BT;
